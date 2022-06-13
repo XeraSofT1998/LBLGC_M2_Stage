@@ -148,12 +148,13 @@ if __name__ == '__main__':
     #get the working directory of the Pnigra & Rnai data sorted by annotation
     working_dir = "/home/alexandre/Documents/LBLGC/Script/Methylome/All_analyse/"
 
-    #for sample in samples_Pnigra:
-    #    path = working_dir + "Pnigra_Memoire/"
+    #analyse Pnigra data
+    for sample in samples_Pnigra:
+        path = working_dir + "Pnigra_Memoire/"
 
-    #    RunProgram(sample, path)
+        RunProgram(sample, path)
 
-    #run this function for each RNAi data
+    #analyse RNAi data
     for sample in samples_RNAi:
         path = working_dir + "RNAi/"
 
